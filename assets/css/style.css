@@ -18,7 +18,7 @@ p,li {
 /* barra Navegação */
 
 header, .navbar {
-    background-color: #353d41;
+    background-color: #0b7bff;
 }
 
 #nav-container {
@@ -27,7 +27,8 @@ header, .navbar {
 }
 
 #logo {
-    width: 75px;
+    width: 100px;
+    margin-left: 1rem;
 }
 
 .navbar-brand {
@@ -46,11 +47,3 @@ header, .navbar {
     padding: 1rem .8rem;
 }
 
-.style-navbar {
-    background-color: #222
-  }
-  
-  .bnt-cor:hover {
-    background-color: gray;
-    color: #fff;
-  }
