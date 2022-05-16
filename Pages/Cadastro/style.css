@@ -11,3 +11,38 @@ input {
 label {
   margin: 0;
 }
+
+
+i, small {
+ visibility: hidden; 
+}
+
+.input-group.error input  {
+  visibility: visible;
+  border-color:  red;
+}
+
+.input-group.error small  {
+  visibility: visible;
+  color:  red;
+}
+
+.input-group.error i {
+  visibility: visible;
+  color:  red;
+} 
+
+
+.input-group.success input {
+  visibility: visible;
+  border-color: #2ecc71;
+}
+
+.input-group.success small {
+  visibility: hidden;
+}
+
+.input-group.success i {
+  visibility: hidden;
+ 
+} 
