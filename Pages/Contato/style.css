@@ -79,9 +79,9 @@ body {
 .card{
     display: flex;
     position: relative;
-    margin: 3rem;
+    margin: 2rem;
     height: 25rem;
-    padding: 1rem;
+    padding: 0.3rem;
     border: 1px solid #0b7bff;
     border-radius: 20px;
     overflow: hidden;
@@ -89,14 +89,15 @@ body {
     text-align: center;    
 }
 
-img {
+.img img {
     width: 200px;
     padding: 1rem;
     transition: 0.5s;
+    
 }
 
 h1 {
-   font-size: 2rem;
+   font-size: 1.7rem;
 }
 
 .conteudo-contatos {
@@ -113,8 +114,8 @@ h1 {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
-    background-color: #0b7bff;
-    color: #fff;
+    /* background-color: #0b7bff; */
+    color: #0b7bff;
     border-radius: 40px;
     text-decoration: none;
     transition: 0.5s;
@@ -134,8 +135,71 @@ h1 {
 }
 
 .card:hover .conteudo-contatos a{
-    color: black;
+    color: #0b7bff;
     background-color: white;
 
 }
 
+
+@media (min-width: 1024px) and (max-width: 1250px) {
+  .img img {
+    width: 120px;
+  }
+
+  .conteudo-contatos a {
+    padding: 1px 10px;
+  }
+
+  .whats {
+    right: 15px;
+  }
+
+  .contatos-geral {
+    margin-left: 8rem;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .contatos-geral {
+    margin-left: 5rem;
+  }
+
+  .img img {
+    width: 80px;
+  }
+
+  h1 {
+    font-size: 0.9rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+
+  .card {
+    margin: 1rem;
+  }
+
+  .conteudo-contatos a {
+    margin-top: 1rem;
+  }
+
+  .whats {
+    right: 09px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  
+  main.contatos-geral {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  
+}
