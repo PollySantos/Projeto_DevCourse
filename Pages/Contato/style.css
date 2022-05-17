@@ -58,7 +58,8 @@ body {
   }
 
  .whats a {
-     text-decoration: none;
+    color: white;
+    text-decoration: none;
  }
 
 /* pagina de contatos */
@@ -86,13 +87,21 @@ body {
     border-radius: 20px;
     overflow: hidden;
     transition: 0.5s;
-    text-align: center;    
+    text-align: center;
+   /* From https://css.glass */
+    background: rgba(17, 131, 233, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+    border: 1px solid rgba(17, 131, 233, 0.28);     
 }
 
 .img img {
     width: 200px;
     padding: 1rem;
     transition: 0.5s;
+    border-radius: 100%;
     
 }
 
@@ -123,7 +132,7 @@ h1 {
 }
 
 .card:hover {
-    background-color: #0b7bff;
+    background-color: #6dadf6;
     color: white;
     margin-top: -1rem;
     box-shadow: 2px 20px 25px #666;
@@ -201,5 +210,12 @@ h1 {
     flex-wrap: wrap;
   }
 
-  
+  .whats, .whats a, .whats a i {
+    font-size: 35px;
+  }
+
+  .icone {
+    width: 30px;
+    height: 30px;
+  }
 }
