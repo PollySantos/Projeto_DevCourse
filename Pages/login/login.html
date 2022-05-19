@@ -16,6 +16,7 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <link rel="stylesheet" href="../../assets/reset/reset.css" />
+  <link rel="stylesheet" href="./style.css">
 
 </head>
 
@@ -55,22 +56,22 @@
   </header>
 
   <main class="container h-100 d-flex align-items-center justify-content-center">
-    <section class="col-xxl-5 ">
+    <form class="col-xxl-5 ">
       <h3 class="text-center">Login:</h3>
 
       <label class="nome">Usuário:</label>
       <input type="email" name="txtUsuario" class="form-control text-center" id="email" size="50" maxlength="50"
-        placeholder="nome@exemplo.com" />
+        placeholder="nome@exemplo.com" required/>
 
       <label class="nome">Senha:</label>
       <input type="password" name="txtSenha" class="form-control text-center mb-3" id="senha" size="30" maxlength="20"
-        placeholder="Digite sua senha" />
+        placeholder="Digite sua senha" required/>
 
       <button type="submit" name="btnSubmitUsuario" class="btn btn-primary w-100" id="btn-submit">Entrar </button>
 
       <a href="../recuperaSenha/RecuperarSenha.html" class="recupere ms-0">Esqueceu sua senha? </a>
 
-    </section>
+    </form>
   </main>
 
   <footer class="fixed-bottom bg-light p-1 text-center">
@@ -78,5 +79,7 @@
   </footer>
 
 </body>
+
+<script src="./login.js"></script>
 
 </html>
