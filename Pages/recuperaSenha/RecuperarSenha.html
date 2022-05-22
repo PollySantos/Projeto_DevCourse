@@ -14,7 +14,7 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
   <link rel="stylesheet" href="../../assets/reset/reset.css" />
   <link rel="stylesheet" href="./style.css" />
@@ -61,10 +61,15 @@
       <h3 class="text-center">Recuperar Senha:</h3>
       <form name="formLogin" method="post" action="" onsubmit=""></form>
 
-      <label class="espaco-label">E-mail para envio:</label>
-      <input type="email" name="txtUsuario" class="form-control text-center" id="email" size="50" maxlength="50"
-        aria-describedby="emailHelp" placeholder="nome@exemplo.com" /><br />
-
+      <div>
+        <label class="espaco-label">E-mail para envio:</label>
+        <input type="email" name="txtUsuario" class="form-control text-center" id="email" size="50" maxlength="50"
+          aria-describedby="emailHelp" placeholder="nome@exemplo.com" autocomplete="off" onkeydown="validar()" required/>
+        <i class="bx bx-error" id="invalid"></i>
+        <i class="bx bx-check" id="valid"></i>
+        <span id="erro-email"></span>
+      </div>
+      
       <button type="submit" name="btnSubmitUsuario" class="btn btn-primary w-100"
         id="btn-recuperacaoSenha">Enviar</button><br>
 

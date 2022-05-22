@@ -1,7 +1,39 @@
-.errorInput{
-    border: 2.5px solid rgb(248, 46, 46) !important;
+
+input, button{
+    margin: 10px 0px;
 }
 
-.okInput{
-    border: 2.5px solid rgb(49, 209, 49) !important;
+span{
+    font-style: italic;
+    font-size: 17px;
 }
+
+/*validacao input*/
+
+.invalid{
+
+    border: 2px solid rgb(248, 46, 46) !important; 
+}
+
+.valid{
+    border: 2px solid rgb(49, 209, 49) !important;
+
+}
+
+/*icons*/
+
+#valid{
+    position: relative;
+    right: 7px;
+    visibility: hidden;
+    color: rgb(49, 209, 49);
+}
+
+#invalid{
+    position: relative;
+    left: 15px;
+    top: 2px;
+    visibility: hidden;
+    color: rgb(248, 46, 46);
+}
+
