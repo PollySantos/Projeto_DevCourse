@@ -14,7 +14,7 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+  <link rel="shortcut icon" href="./assets/img/favicon.jpeg-removebg-preview.png" type="image/x-icon">
 
   <link rel="stylesheet" href="../../assets/reset/reset.css" />
 
@@ -22,34 +22,20 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="./index.html">
-          <img class="custom-logo" src="./assets/img/DEv_COURSE.png" alt="logo" width="100px">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link active" href="./index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./Pages/serviço/serviços.html">Serviços</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./Pages/Cadastro/cadastro.html">Cadastro</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./Pages/Contato/contato.html">Contato</a>
-            </li>
-          </ul>
-          <button class="btn btn-outline-light">
-            <a id="bntlogin" href="./Pages/login/login.html">Login</a>
-          </button>
+    <nav>
+      <img class="logo" src="../../assets/img/logo" />
+      <div class="sideMenu">
+        <img src="../../assets/img/menu-icon.svg" alt="Menu Icon">
+      </div>
+      <div class="menu">
+        <div class="links">
+          <a href="./index.html" style="color: #8E2424;">Home</a>
+          <a href="./Pages/serviço/serviços.html">Produtos</a>
+          <a href="./Pages/Contato/contato.html">Contato</a>
+        </div>
+        <div class="buttons">
+          <a href="./Pages/login/login.html"><button>Entrar</button> </a>
+          <a href="./Pages/Cadastro/cadastro.html"><button class="signUp">Cadastrar</button></a>
         </div>
       </div>
     </nav>
@@ -59,7 +45,7 @@
   <footer class="fixed-bottom bg-light p-1 text-center">
     <a> T[18] &#169; - 2022 - Todos o direitos reservados</a>
   </footer>
-
+  <script src="./assets/reset/reset.js"></script>
 </body>
 
 </html>

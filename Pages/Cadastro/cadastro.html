@@ -14,7 +14,7 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+  <link rel="shortcut icon" href="../../assets/img/favicon.jpeg-removebg-preview.png" type="image/x-icon">
 
   <link rel="stylesheet" href="../../assets/reset/reset.css" />
   <link rel="stylesheet" href="./style.css" />
@@ -23,103 +23,127 @@
 
 <body>
   <header>
-    <nav class=" navbar navbar-expand-lg navbar-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="../../index.html">
-          <img class="custom-logo" src="../../assets/img/DEv_COURSE.png" alt="logo" width="100px">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="../../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="../serviço/serviços.html">Serviços</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="../Cadastro/cadastro.html">Cadastro</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../Contato/contato.html">Contato</a>
-            </li>
-          </ul>
-          <button class="btn btn-outline-light">
-            <a id="bntlogin" href="../login/login.html">Login</a>
-          </button>
+    <nav>
+      <img class="logo" src="../../assets/img/logo" />
+      <div class="sideMenu">
+        <img src="../../assets/img/menu-icon.svg" alt="Menu Icon">
+      </div>
+      <div class="menu">
+        <div class="links">
+          <a href="../../index.html">Home</a>
+          <a href="../serviço/serviços.html">Produtos</a>
+          <a href="../Contato/contato.html">Contato</a>
+        </div>
+        <div class="buttons">
+          <a href="../login/login.html"><button>Entrar</button> </a>
+          <a href="../Cadastro/cadastro.html"><button class="signUp">Cadastrar</button></a>
         </div>
       </div>
     </nav>
   </header>
 
-  <main class="container mt-5 d-flex justify-content-center">
-    <section class="col-xl-6" id="container">
-      <form name="formUsuarios" method="post" action="" onsubmit=""></form>
-      <br>
-      <label class="digite" for="txtNome">Nome:</label>
-      <input type="text" name="txtNome" class="form-control" id="nome" size="70" maxlength="30"
-        placeholder="Digite seu nome completo" required />
-
-      <label class="digite" for="txtEmail">E-mail:</label>
-      <input type="email" name="txtEmail" class="form-control id=" email" size="50" maxlength="30"
-        aria-describedby="emailHelp" placeholder="nome@exemplo.com" required />
-
-      <label class="digite" for="txtSenha1">Senha:</label>
-      <input type="password" name="txtSenha1" class="form-control" id="senha" size="30" maxlength="30"
-        placeholder="Digite uma senha" required />
-
-      <label class="digite" for="txtSenha2">Confirmação de senha:</label>
-      <input type="password" name="txtSenha2" class="form-control" id="senhaRepeat" size="30" maxlength="30"
-        placeholder="Repita a senha" required />
-
-      <label class="digite" for="txtRG">RG:</label>
-      <input type="text" name="txtRG" class="form-control" id="rg" size="15" maxlength="15"
-        placeholder="Digite somente números" required />
-
-      <label class="digite-cep" for="txtCEP">CEP:</label>
-
-      <div class="input-group">
-        <input type="text" name="txtCEP" class="form-control" id="cep" maxlength="8"
-          placeholder="Digite somente números" required />
-
-        <div class="input-group-append">
-          <button class="btn btn-primary" type="button" id="btn-cep">Buscar</button>
+  <main>
+    <section class="content-left">
+      <div class="container-left">
+        <h2>Aprenda TUDO o que precisa para começar a trabalhar como <span>Dev Jr.!</span></h2>
+        <p>Aulas 100% gravadas | assista de onde quiser | + de 500h de conteúdo</p>
+        <div class="video">
+          <iframe width="400" height="315" src="https://www.youtube.com/embed/KJV8uhxaRl8" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
-
       </div>
+    </section>
 
-      <label class="digite" for="txtRua">Rua:</label>
-      <input type="text" name="txtRua" class="form-control" id="rua" size="70" maxlength="30" required />
-
-      <label class="digite" for="txtNumero">Número:</label>
-      <input type="text" name="txtNumero" class="form-control" id="numero" size="10" maxlength="10" required />
-
-      <label class="digite" for="txtComplemento">Complemento:</label>
-      <input type="text" name="txtComplemento" class="form-control" id="complemento" size="50" maxlength="30" />
-
-      <label class="digite" for="txtBairro">Bairro:</label>
-      <input type="text" name="txtBairro" class="form-control" id="bairro" size="40" maxlength="30" required />
-
-      <label class="digite" for="txtCidade">Cidade:</label>
-      <input type="text" name="txtCidade" class="form-control" id="cidade" size="40" maxlength="20" required />
-
-      <label class="digite" for="txtEstado">Estado:</label>
-      <input type="text" name="txtEstado" class="form-control" id="estado" size="2" maxlength="2" required />
-
-      <button type="submit" name="btnSubmitUsuario" class="btn btn-primary w-100 my-3"
-        id="btn-cadastro">Cadastrar</button>
-
+    <section class="content-right">
+      <div class="container-right">
+        <h1>Plataforma DevCourse</h1>
+        <p>No momento não estamos com processo seletivo aberto, ok? Mas em breve teremos novas turmas. Inscreva-se na
+          lista de espera e fique sabendo em primeira mão.</p>
+        <form name="form1">
+          <div class="group">
+            <label for="nome">Nome Completo</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome" required>
+          </div>
+          <div class="group">
+            <label for="email">E-mail (você usará o mesmo durante todo o processo)</label>
+            <input type="email" name="email" id="email" placeholder="E-mail" required>
+          </div>
+          <div class="group">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" placeholder="Senha" required>
+          </div>
+          <div class="group">
+            <label for="confirmeSenha">Confirmação de Senha</label>
+            <input type="password" name="confirmeSenha" id="confirmeSenha" placeholder="Confirme sua Senha" required>
+          </div>
+          <div class="group">
+            <label for="rg">RG</label>
+            <input type="text" name="rg" id="rg" placeholder="RG" required>
+          </div>
+          <div class="group">
+            <label for="CEP">CEP</label>
+            <input type="text" name="CEP" id="CEP" placeholder="CEP" required>
+          </div>
+          <div class="group">
+            <label for="Rua">Rua</label>
+            <input type="text" name="Rua" id="Rua" placeholder="Rua" required>
+          </div>
+          <div class="group">
+            <label for="Numero">Número</label>
+            <input type="text" name="Numero" id="Numero" placeholder="Numero" required>
+          </div>
+          <div class="group">
+            <label for="Complemento">Complemento</label>
+            <input type="text" name="Complemento" id="Complemento" placeholder="Complemento" required>
+          </div>
+          <div class="group">
+            <label for="Bairro">Bairro</label>
+            <input type="text" name="Bairro" id="Bairro" placeholder="Bairro" required>
+          </div>
+          <div class="group">
+            <label for="Cidade">Cidade</label>
+            <input type="text" name="Cidade" id="Cidade" placeholder="Cidade" required>
+          </div>
+          <div class="group">
+            <label for="Estado">Estado</label>
+            <input type="text" name="Estado" id="Estado" placeholder="Estado" required>
+          </div>
+          <div class="group">
+            <label for="select2">Como Você conheceu a DevCouse?</label>
+            <select name="select1" id="select" required>
+              <option value="#">---</option>
+              <option vvalue="#">Anuncio no Facebook/Instagram</option>
+              <option value="#">Anuncio no Google ou outros sites</option>
+              <option value="#">Divulgação de alguma empresa parceira</option>
+              <option value="#">Imprensa (jornais. TV, revistas)</option>
+              <option value="#">Indicação de um amigo</option>
+              <option value="#">Panfleto</option>
+              <option value="#">Pesquisa no Google</option>
+            </select>
+            </select>
+          </div>
+          <div class="group">
+            <label for="select2">Você concorda com a nossa <a
+                href="https://www.inscricoes.resilia.dev/politica-de-privacidade/" target="blank"> Política de
+                privacidade?</a></label>
+            <select name="select2" id="select" required>
+              <option value="#">Sim</option>
+              <option value="#">Não</option>
+            </select>
+          </div>
+          <button class="listadeespera" type="submit">Entrar Para Lista De Espera!</button>
+        </form>
+      </div>
     </section>
   </main>
+</body>
 
-  <footer class="bg-light p-1 text-center">
-    <a> T[18] &#169; - 2022 - Todos o direitos reservados</a>
-  </footer>
-
+<footer class="bg-light p-1 text-center">
+  <a> T[18] &#169; - 2022 - Todos o direitos reservados</a>
+</footer>
+<script src="../../assets/reset/reset.js"></script>
 </body>
 
 </html>
