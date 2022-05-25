@@ -1,10 +1,15 @@
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+    --title-color: #101828;
+  }
 /* Gerais*/
 html,
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
     width: 100%;
     height: 100vh;
 }
@@ -15,13 +20,141 @@ p,li {
 }
 
 /* barra Navegação */
-
-header .navbar {
-    background-color: #0b7bff;
-}
-
-.navbar-brand {
+  
+  * {
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  header {
+    -webkit-box-shadow: 0px 1px 15px -11px #000000; 
+    box-shadow: 0px 1px 15px -11px #000000; 
+  }
+  
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .3rem 2rem;
+  }
+  
+  .logo {
+    width: 150px;
+  }
+  .links a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin-right: 2rem;
+  }
+  
+  .links a:hover {
+    color: var(--main-color);
+  }
+  
+  
+  button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    background: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+  }
+  
+  button:hover {
+    color: var(--main-color);
+  }
+  
+  button.signUp {
+    background-color: var(--main-color);
+    color: #FFF;
+    transition: .3s all;
+  }
+  
+  button.signUp:hover {
+    background-color: var(--text-color);
+  }
+  
+  .sideMenu {
+    display: none;
+    visibility: hidden;
+    z-index: 2;
+  }
+  
+  .menu.active {
+    right: 0;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu .links a {
+    margin-bottom: 1rem;
+  }
+  
+  .sideMenu img {
+    position: relative;
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  
+  
+  @media screen and (max-width: 850px) {
+    
+    .sideMenu {
+      display: initial;
+      visibility: visible;
+    }
+  
+    .links {
+      margin: 2rem 0;
+    }
+  
+    .links a {
+      margin-right: 0;
+    }
+  
+    .menu {
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      right: -1000px;
+      height: 100vh;
+      background: #F9FAFB;
+      width: 15rem;
+      padding: 2rem;
+      transition: all 2s;
+    }
+  
+    .menu .links, .menu .buttons {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+=======
     color: #fff;
 }
 
@@ -46,13 +179,3 @@ li a {
     color: black;
 
 }
-
-
-
-
-
-
-
-
-
-  

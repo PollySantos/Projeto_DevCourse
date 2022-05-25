@@ -16,9 +16,8 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-
   <link rel="stylesheet" href="../../assets/reset/reset.css" />
+  <link rel="shortcut icon" href="../../assets/img/favicon.jpeg-removebg-preview.png" type="image/x-icon">
   <link rel="stylesheet" href="./style.css" />
   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -33,34 +32,20 @@
   </div>
 
   <header>
-    <nav class=" navbar navbar-expand-lg navbar-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="../../index.html">
-          <img class="custom-logo" src="../../assets/img/DEv_COURSE.png" alt="logo" width="100px">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="../../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../serviço/serviços.html">Serviços</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../Cadastro/cadastro.html">Cadastro</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="../Contato/contato.html">Contato</a>
-            </li>
-          </ul>
-          <button class="btn btn-outline-light">
-            <a id="bntlogin" href="../login/login.html">Login</a>
-          </button>
+    <nav>
+      <img class="logo" src="../../assets/img/logo" />
+      <div class="sideMenu">
+        <img src="../../assets/img/menu-icon.svg" alt="Menu Icon">
+      </div>
+      <div class="menu">
+        <div class="links">
+          <a href="../../index.html">Home</a>
+          <a href="../serviço/serviços.html">Produtos</a>
+          <a href="../Contato/contato.html" style="color: #8E2424;">Contato</a>
+        </div>
+        <div class="buttons">
+          <a href="../login/login.html"><button>Entrar</button> </a>
+          <a href="../Cadastro/cadastro.html"><button class="signUp">Cadastrar</button></a>
         </div>
       </div>
     </nav>
@@ -129,7 +114,7 @@
   <footer class="fixed-bottom bg-light p-1 text-center">
     <a> T[18] &#169; - 2022 - Todos o direitos reservados</a>
   </footer>
-
+  <script src="../../assets/reset/reset.js"></script>
 </body>
 
 </html>

@@ -14,58 +14,55 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="shortcut icon" href="../../assets/img/favicon.jpeg-removebg-preview.png" type="image/x-icon">
   <link rel="stylesheet" href="../../assets/reset/reset.css" />
   <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
   <header>
-    <nav class=" navbar navbar-expand-lg navbar-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="../../index.html">
-          <img class="custom-logo" src="../../assets/img/DEv_COURSE.png" alt="logo" width="100px">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="../../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="../serviço/serviços.html">Serviços</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../Cadastro/cadastro.html">Cadastro</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../Contato/contato.html">Contato</a>
-            </li>
-          </ul>
-          <button class="btn btn-outline-light">
-            <a id="bntlogin" href="../login/login.html">Login</a>
-          </button>
+    <nav>
+      <img class="logo" src="../../assets/img/logo" />
+      <div class="sideMenu">
+        <img src="../../assets/img/menu-icon.svg" alt="Menu Icon">
+      </div>
+      <div class="menu">
+        <div class="links">
+          <a href="../../index.html">Home</a>
+          <a href="../serviço/serviços.html">Produtos</a>
+          <a href="../Contato/contato.html">Contato</a>
+        </div>
+        <div class="buttons">
+          <a href="../login/login.html"><button>Entrar</button> </a>
+          <a href="../Cadastro/cadastro.html"><button class="signUp">Cadastrar</button></a>
         </div>
       </div>
     </nav>
   </header>
 
   <main class="containerserviços">
-    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <div class="pricing-header  text-center">
       <h1 class="display-5">Valores</h1>
       <p class="lead">Confira os valores dos nossos planos e não fique de fora!</p>
     </div>
 
     <div class="card-deck mb-3 text-center">
       <div class="card mb-3 box-shadow">
-        <div class="card-header">
-          <h4 class="my-0 font-weight-normal">Plano Mensal</h4>
+        <div class="card-header gratis">
+          <h4 class="my-0 font-weight-normal">Plano Grátis</h4>
         </div>
         <div class="card-body">
+          <h1 class="card-title pricing-card-title">R$ 00<small class="text-muted">,00</small></h1>
+          <ul class="list-unstyled ">
+            <div class="itemLista">
+              <i class='bx bx-check'></i>
+              <li>Acesso aos cursos instrodutórios da plataforma</li>
+            </div>
+            <div class="itemLista">
+              <i class='bx bx-check'></i>
+              <li>Acesso ao chat online</li>
+            </div>
           <h1 class="card-title pricing-card-title">R$ 84<small class="text-muted">,90</small></h1>
           <ul class="list-unstyled mt-3 mb-4">
             <li>Acesso a todos os cursos da plataforma</li>
@@ -74,45 +71,81 @@
             <br><br>
             <li>À vista ou 1x no cartão de crédito</li>
           </ul>
-          <button class="btn btn-lg btn-block btn-primary">
+          <button class="btn btn-lg btn-block">
             <a id="bntcomprar" href="./cadastro.html">Comprar</a>
           </button>
         </div>
       </div>
       <div class="card mb-3 box-shadow">
-        <div class="card-header">
-          <h4 class="my-0 font-weight-normal">Plano Trimestral</h4>
+        <div class="card-header silver">
+          <h4 class="my-0 font-weight-normal ">Plano Silver</h4>
         </div>
         <div class="card-body">
-          <h1 class="card-title pricing-card-title">R$ 229<small class="text-muted">,90</small></h1>
+          <h1 class="card-title pricing-card-title">R$ 54<small class="text-muted">,90</small></h1>
           <ul class="list-unstyled mt-3 mb-4">
+            <div class="itemLista">
+              <i class='bx bx-check'></i>
+              <li>Acesso a todos os cursos da plataforma</li>
+            </div>
+            <div class="itemLista">
+              <i class='bx bx-check'></i>
+              <li>Acesso ao chat online</li>
+            </div>
+            <div class="itemLista">
+              <i class='bx bx-check'></i>
+              <li>Certificado</li>
+            </div>
+
             <li>Acesso a todos os cursos da plataforma</li>
             <li>Dev Course Challenges</li>
             <li>Dev Course Cases</li>
             <li>Certificado</li>
+
             <br>
-            <li>Parcelamento em até 2x sem juros</li>
+            <div class="itemLista">
+              <i class='bx bx-check'></i>
+              <li>Parcelamento em até 2x sem juros</li>
+            </div>
           </ul>
-          <button class="btn btn-lg btn-block btn-primary">
+          <button class="btn btn-lg btn-block">
             <a id="bntcomprar" href="./cadastro.html">Comprar</a>
           </button>
         </div>
       </div>
       <div class="card mb-3 box-shadow">
-        <div class="card-header">
-          <h4 class="my-0 font-weight-normal">Plano Anual</h4>
+        <div class="card-header gold">
+          <h4 class="my-0 font-weight-normal ">Plano Gold</h4>
         </div>
         <div class="card-body">
-          <h1 class="card-title pricing-card-title">R$ 984<small class="text-muted">,90</small></h1>
+          <h1 class="card-title pricing-card-title">R$ 104<small class="text-muted">,90</small></h1>
           <ul class="list-unstyled mt-3 mb-4">
-            <li>Acesso a todos os cursos da plataforma</li>
-            <li>Dev Couse Challenges</li>
-            <li>Dev Course Cases</li>
-            <li>Certificado</li>
+            <div class="itemLista">
+              <i class='bx bx-check'></i>
+              <li>Acesso a todos os cursos da plataforma</li>
+            </div>
+            <div class="itemLista">
+              <i class='bx bx-check'></i>
+              <li>Acesso ao chat online</li>
+            </div>
+            <div class="itemLista">
+              <i class='bx bx-check'></i>
+              <li>Certificado</li>
+            </div>
+            <div class="itemLista">
+              <i class='bx bx-check'></i>
+              <li>Acesso aos benefícios de pontuação</li>
+            </div>
+            <div class="itemLista">
+              <i class='bx bx-check'></i>
+              <li>Sistema de mentoria</li>
+            </div>
             <br>
-            <li>Parcelamento em até 10x sem juros</li>
+            <div class="itemLista">
+              <i class='bx bx-check'></i>
+              <li>Parcelamento em até 3x sem juros</li>
+            </div>
           </ul>
-          <button class="btn btn-lg btn-block btn-primary">
+          <button class="btn btn-lg btn-block">
             <a id="bntcomprar" href="./cadastro.html">Comprar</a>
           </button>
         </div>
@@ -123,7 +156,7 @@
   <footer class="fixed-bottom bg-light p-1 text-center">
     <a> T[18] &#169; - 2022 - Todos o direitos reservados</a>
   </footer>
-
+  <script src="../../assets/reset/reset.js"></script>
 </body>
 
 </html>
