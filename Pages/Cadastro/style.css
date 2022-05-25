@@ -104,12 +104,7 @@ main {
   font-size: 15px;
 }
 
-.group input:focus {
-  letter-spacing: 0.8px;
-  font-weight: 500;
-  background-color: #924242;
-  color: white;
-}
+
 
 .group select {
   width: 100%;
@@ -121,6 +116,9 @@ main {
   font-family: inherit;
   outline: none;
 }
+
+
+
 
 .listadeespera {
   display: block;
@@ -141,10 +139,50 @@ main {
 
 .listadeespera:hover {
   background-color: white;
-
   color: #8E2424;
   cursor: pointer;
 }
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+i, small {
+    visibility: hidden; 
+   }
+   
+   .input-group.error input  {
+     visibility: visible;
+     border-color:  red;
+   }
+   
+   .input-group.error small  {
+     visibility: visible;
+     color:  red;
+   }
+
+   
+   .input-group.error i {
+     visibility: visible;
+     color:  red;
+   } 
+   
+   
+   .input-group.success input {
+     visibility: visible;
+     border-color: #2ecc71;
+   }
+   
+   .input-group.success small {
+     visibility: hidden;
+   }
+   
+   .input-group.success i {
+     visibility: hidden;
+    
+   } 
 
 @media (max-width: 1024px) {
   .video iframe {
