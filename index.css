@@ -5,25 +5,39 @@
 }
 
 .cabecalho {
+  width: 100%;
   perspective: 1px;
   transform-style: preserve-3d;
   height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
-  
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
+.cabecalho::-webkit-scrollbar {
+  display: none;
 }
 
 .content {
   position: relative;
   display: block;
   background-color: white;
-  z-index: 1;
+  z-index: 1; 
+  
 }
 
 .conteudo {
   max-width: 750px;
   margin: 0 auto;
   padding: 75px 0;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.conteudo h2 {
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .parallax {
@@ -36,7 +50,8 @@
   align-items: center;
   transform: translateZ(-1px) scale(2);
   background: url(./assets/img/cabecalho.png);
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-origin: content-box;
   background-color: #fae4d8;
