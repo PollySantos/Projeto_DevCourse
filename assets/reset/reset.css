@@ -154,3 +154,28 @@ p,li {
       width: 100%;
     }
   }
+=======
+    color: #fff;
+}
+
+#navbar-brand:hover {
+    color:#fff
+}
+
+#navbar-links a {
+    color: #fff;
+}
+
+
+li a {
+    font-size: 18px;
+}
+
+#bntlogin {
+    color: white;
+    text-decoration: none;
+}
+#bntlogin:hover {
+    color: black;
+
+}
