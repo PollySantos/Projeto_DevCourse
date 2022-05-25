@@ -1,3 +1,7 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
 
 input, button{
     margin: 10px 0px;
@@ -37,3 +41,33 @@ span{
     color: rgb(248, 46, 46);
 }
 
+/*conteudo*/
+
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#imagem{
+    width: 850px;
+    padding: 60px;
+}
+
+.form{
+    padding: 100px;
+    width: 600px;
+    border: 2px solid #8e2424;
+    border-radius: 10px;
+    box-shadow: 7px 7px #8e2424;
+}
+
+#btn-submit{
+    background-color: #8e2424;
+    transition: 0.5s;
+}
+
+#btn-submit:hover{
+    background-color: grey;
+}

@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="../../assets/reset/reset.css" />
   <link rel="stylesheet" href="./style.css" />
@@ -22,64 +23,31 @@
 </head>
 
 <body>
-  <header>
-    <nav class=" navbar navbar-expand-lg navbar-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="../../index.html">
-          <img class="custom-logo" src="../../assets/img/DEv_COURSE.png" alt="logo" width="100px">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="../../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../serviço/serviços.html">Serviços</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../Cadastro/cadastro.html">Cadastro</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../Contato/contato.html">Contato</a>
-            </li>
-          </ul>
-          <button class="btn btn-outline-light">
-            <a id="bntlogin" href="../login/login.html">Login</a>
-          </button>
-        </div>
-      </div>
-    </nav>
-  </header>
 
   <main class="container h-100 d-flex align-items-center justify-content-center">
-    <section class="col-xl-4">
-      <h3 class="text-center">Recuperar Senha:</h3>
-      <form name="formLogin" method="post" action="" onsubmit=""></form>
+    <section class="col-xl-">
+      <div class="conteudo2">
+        <h3 class="text-center">Recuperar Senha:</h3>
+        <form name="formLogin" method="post" action="" onsubmit=""></form>
 
-      <div>
-        <label class="espaco-label">E-mail para envio:</label>
-        <input type="email" name="txtUsuario" class="form-control text-center" id="email" size="50" maxlength="50"
-          aria-describedby="emailHelp" placeholder="nome@exemplo.com" autocomplete="off" onkeydown="validar()" required/>
-        <i class="bx bx-error" id="invalid"></i>
-        <i class="bx bx-check" id="valid"></i>
-        <span id="erro-email"></span>
+        <div>
+          <label class="espaco-label">E-mail para envio:</label>
+          <input type="email" name="txtUsuario" class="form-control text-center" id="email" size="50" maxlength="50"
+            aria-describedby="emailHelp" placeholder="nome@exemplo.com" autocomplete="off" onkeydown="validar()" required/>
+          <i class="bx bx-error" id="invalid"></i>
+          <i class="bx bx-check" id="valid"></i>
+          <span id="erro-email"></span>
+        </div>
+        
+        <button type="submit" name="btnSubmitUsuario" class="btn btn-primary w-100"
+          id="btn-recuperacaoSenha">Enviar</button><br>
+
+        <a href="../Cadastro/cadastro.html" class="ms-0">Cadastrar Usuário</a>
       </div>
-      
-      <button type="submit" name="btnSubmitUsuario" class="btn btn-primary w-100"
-        id="btn-recuperacaoSenha">Enviar</button><br>
-
-      <a href="../Cadastro/cadastro.html" class="ms-0">Cadastrar Usuário</a>
     </section>
   </main>
 
-  <footer class="fixed-bottom bg-light p-1 text-center">
-    <a> T[18] &#169; - 2022 - Todos o direitos reservados</a>
-  </footer>
 
 </body>
 
