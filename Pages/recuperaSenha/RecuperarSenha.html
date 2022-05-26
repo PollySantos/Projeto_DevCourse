@@ -17,6 +17,7 @@
   <link rel="shortcut icon" href="../../assets/img/favicon.jpeg-removebg-preview.png" type="image/x-icon">
 
   <link rel="stylesheet" href="../../assets/reset/reset.css" />
+  <link rel="stylesheet" href="./style.css" />
 
 </head>
 
@@ -41,26 +42,39 @@
     </nav>
   </header>
 
-  <main class="container h-100 d-flex align-items-center justify-content-center">
-    <section class="col-xl-4">
-      <h3 class="text-center">Recuperar Senha:</h3>
-      <form name="formLogin" method="post" action="" onsubmit=""></form>
+  <div class="container-login">
+    <div class="img-box">
+        <img src="../../assets/img/recupera.svg">
+    </div>
+    <div class="content-box">
+        <div class="form-box">
+            <h2>Recuperar senha</h2>
+            
+            <form>
+                <div class="input-box">
+                    <span>E-mail para envio</span>
+                    <input type="email" placeholder="nome@exemplo.com" autocomplete="off" onkeydown="validar()" required/>
+                    <i class="bx bx-error" id="invalid"></i>
+                    <i class="bx bx-check" id="valid"></i>
+                    <span id="erro-email"></span>
+                </div>
 
-      <label class="espaco-label">E-mail para envio:</label>
-      <input type="email" name="txtUsuario" class="form-control text-center" id="email" size="50" maxlength="50"
-        aria-describedby="emailHelp" placeholder="nome@exemplo.com" /><br />
+                <button type="submit" name="btnSubmitUsuario" class="btn btn-primary w-100"
+                id="btn-recuperacaoSenha">Enviar</button><br>
 
-      <button type="submit" name="btnSubmitUsuario" class="btn btn-primary w-100"
-        id="btn-recuperacaoSenha">Enviar</button><br>
+                <div class="input-box">
+                   <p><a href="../../Pages/Cadastro/cadastro.html">Cadastre-se</a></p>
+                </div>
 
-      <a href="../Cadastro/cadastro.html" class="ms-0">Cadastrar Usuário</a>
-    </section>
-  </main>
+            </form>
+        </div>
+    </div>
 
   <footer class="fixed-bottom bg-light p-1 text-center">
     <a> T[18] &#169; - 2022 - Todos o direitos reservados</a>
   </footer>
   <script src="../../assets/reset/reset.js"></script>
+  <script src="RecuperarSenha.js"></script>
 </body>
 
 </html>
