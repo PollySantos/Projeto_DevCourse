@@ -49,7 +49,8 @@
 ##
 
 *Consulte a documentação do GitHub em* 
-[como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+[como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).<br>
+*Consulte a documentação do GitHub em* 
 [como criar e deletar branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository).
 
 <h2 id="grupo">Autores 🥇</h2>
