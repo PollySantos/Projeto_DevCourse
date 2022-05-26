@@ -53,7 +53,8 @@
             <form>
                 <div class="input-box">
                     <span>E-mail para envio</span>
-                    <input type="email" placeholder="nome@exemplo.com" autocomplete="off" onkeydown="validar()" required/>
+                    <input type="email" placeholder="nome@exemplo.com" id="email" maxlength="50"
+                    aria-describedby="emailHelp" autocomplete="off" onkeydown="validar()" required/>
                     <i class="bx bx-error" id="invalid"></i>
                     <i class="bx bx-check" id="valid"></i>
                     <span id="erro-email"></span>
