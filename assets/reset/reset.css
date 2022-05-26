@@ -78,10 +78,13 @@ p,li {
     background-color: var(--main-color);
     color: #FFF;
     transition: .3s all;
+    font-size: 15px;
   }
   
   button.signUp:hover {
-    background-color: var(--text-color);
+    background-color: white;
+    color: #8E2424;
+    border: 1px solid #8E2424;
   }
   
   .sideMenu {
