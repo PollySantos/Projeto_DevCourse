@@ -1,7 +1,6 @@
 /* botão whats pagina de contato*/
-body {
-    background-image: url(../../assets/img//bg.png);
-}
+
+
 #animations {
     animation-name: popup;
     animation-duration: 1.5s;
@@ -9,7 +8,7 @@ body {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
   }
-  
+
   @keyframes popup {
     from {
       transform: translateY(-10px);
@@ -66,20 +65,26 @@ body {
 .contatos-geral {
     display: flex;
     margin-top: 5rem;
-    margin-left: 10rem;
-    width: 80%;
+    padding: 0 40px;
+    width: 100%;
+   
 }
 
 .titulo {
     font-size: 30px;
-    margin-top: 16rem;
+    margin-top: 5rem;
+    font-weight: 600;
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo h1 {
+  color: #8e2424;
+  font-size: 40px;
+
 }
 
 .card{
     display: flex;
-    position: relative;
     margin: 2rem;
     height: 25rem;
     padding: 0.3rem;
@@ -101,7 +106,6 @@ body {
     padding: 1rem;
     transition: 0.5s;
     border-radius: 100%;
-    
 }
 
 h1 {
