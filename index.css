@@ -65,10 +65,10 @@
   letter-spacing: -15px;
   color: var(--main-color);
   text-align: center;
-  font-size: 150px;
+  font-size: 120px;
   font-weight: 600;
   margin-bottom: 3.5em;
-
+  letter-spacing: .1px;
 }
 
 .about-us {
@@ -169,6 +169,8 @@
   background-color: #8E2424;
   box-shadow: hsl(0, 32%, 27%) 0px 20px 30px -10px;
   color: white;
+  text-align: center;
+
 }
 /* Seção de vagas abertas */
 
@@ -285,7 +287,19 @@
   margin-right: 1rem;
 }
 
-
+@media screen and (max-width: 1030px) {
+  .parallax .devCourse {
+    font-size: 100px;
+    margin-top: 5rem;
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .parallax .devCourse {
+    font-size: 70px;
+    margin-top: 3rem;
+  }
+}
 @media screen and (max-width: 920px) {
   .metrics {
     padding: 0 4rem;
