@@ -83,18 +83,17 @@ body {
     margin: 2rem;
     height: 25rem;
     padding: 0.3rem;
-    border: 1px solid #0b7bff;
     border-radius: 20px;
     overflow: hidden;
     transition: 0.5s;
     text-align: center;
    /* From https://css.glass */
-    background: rgba(17, 131, 233, 0.09);
+    background: rgba(180, 36, 31, 0.09);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2.8px);
     -webkit-backdrop-filter: blur(2.8px);
-    border: 1px solid rgba(17, 131, 233, 0.28);     
+    border: 1px solid #8e2424;     
 }
 
 .img img {
@@ -124,7 +123,7 @@ h1 {
     display: inline-block;
     padding: 10px 20px;
     /* background-color: #0b7bff; */
-    color: #0b7bff;
+    color: #222;
     border-radius: 40px;
     text-decoration: none;
     transition: 0.5s;
@@ -132,11 +131,11 @@ h1 {
 }
 
 .card:hover {
-    background-color: #6dadf6;
+    background-color: #8e2424;
     color: white;
     margin-top: -1rem;
     box-shadow: 2px 20px 25px #666;
-    border-color: #0b7bff
+    border-color: #8e2424
 }
 
 .card:hover .conteudo-contatos p{
@@ -144,7 +143,7 @@ h1 {
 }
 
 .card:hover .conteudo-contatos a{
-    color: #0b7bff;
+    color: #8e2424;
     background-color: white;
 
 }

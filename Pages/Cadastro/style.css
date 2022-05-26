@@ -184,6 +184,11 @@ i, small {
     
    } 
 
+   #btn-cep {
+     background-color: #8E2424;
+     border: none;
+   }
+
 @media (max-width: 1024px) {
   .video iframe {
     height: 300px;
