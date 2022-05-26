@@ -1,4 +1,4 @@
-# Projeto final do módulo 2: Lançamento de produto - Dev Courses 💡
+# Projeto final do módulo 2: Lançamento de produto - Dev Course 💡
 
 
 <h2 id="sobre">Sobre 🔎</h2>
