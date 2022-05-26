@@ -46,15 +46,11 @@
   - Uso da API ViaCEP
   - Utilização de metodologias ágeis
 
-<h2 id="contribuir">Como contribuir 📫</h2>
+##
 
-Para contribuir com nosso projeto, siga estas etapas:
-  >- Bifurque este repositório.
-  >- Crie um branch: `git checkout -b <nome_branch>`.
-  >- Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-  >- Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
-  >- Crie a solicitação de pull.
-*Consulte a documentação do GitHub em* [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+*Consulte a documentação do GitHub em* 
+[como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+[como criar e deletar branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository).
 
 <h2 id="grupo">Autores 🥇</h2>
 
