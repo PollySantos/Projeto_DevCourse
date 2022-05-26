@@ -63,8 +63,3 @@ Para contribuir com nosso projeto, siga estas etapas:
   - [Poliana Santos](https://www.linkedin.com/in/polianasantoss/)
   - [Rafael Gomes](https://www.linkedin.com/in/raphael-gomes1706/)
 
-<hr>
-
-<div align="center">
-  &#11165;&nbsp;<a href="#inicio"><strong>Voltar ao topo</strong></a>&nbsp;&#11165;
-</div>
