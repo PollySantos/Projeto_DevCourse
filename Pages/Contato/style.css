@@ -1,7 +1,10 @@
 /* botão whats pagina de contato*/
-body {
-    background-image: url(../../assets/img//bg.png);
-}
+html, body {
+    background-image: url(../../assets/img/wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
 #animations {
     animation-name: popup;
     animation-duration: 1.5s;
