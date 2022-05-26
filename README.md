@@ -61,7 +61,7 @@ Para contribuir com nosso projeto, siga estas etapas:
   - [Fernando Patrick](https://www.linkedin.com/in/fernandopatrick/)
   - [Lucas Passos](https://www.linkedin.com/in/lucas--passos/)
   - [Poliana Santos](https://www.linkedin.com/in/polianasantoss/)
-  - [Rafael Gomes]("https://www.linkedin.com/in/raphael-gomes1706/)
+  - [Rafael Gomes](https://www.linkedin.com/in/raphael-gomes1706/)
 
 <hr>
 
