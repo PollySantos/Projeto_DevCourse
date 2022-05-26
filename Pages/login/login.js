@@ -1,4 +1,4 @@
-const button = document.getElementById('btn-submit')
+const button = document.getElementById('entra')
 
 button.addEventListener('click', (evento) => {
     
