@@ -1,3 +1,42 @@
+/*validacao input*/
+
+.invalid{
+
+    border: 2px solid rgb(248, 46, 46) !important; 
+}
+
+.valid{
+    border: 2px solid rgb(49, 209, 49) !important;
+
+}
+
+/*icons*/
+
+
+#valid, #valid1{
+    position: relative;
+    right: 7px;
+    visibility: hidden;
+    color: rgb(49, 209, 49);
+}
+
+#invalid, #invalid1{
+    position: relative;
+    left: 15px;
+    top: 2px;
+    visibility: hidden;
+    color: rgb(248, 46, 46);
+}
+
+
+span{
+    font-style: italic;
+    font-size: 17px;
+}
+
+
+/*conteudo*/
+
 * {
     margin: 0;
     padding: 0;

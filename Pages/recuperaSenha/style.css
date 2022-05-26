@@ -27,6 +27,11 @@
     color: rgb(248, 46, 46);
 }
 
+span{
+    font-style: italic;
+    font-size: 17px;
+}
+
 /*conteudo*/
 
 * {
