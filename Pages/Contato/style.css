@@ -72,7 +72,7 @@ body {
 
 .titulo {
     font-size: 30px;
-    margin-top: 16rem;
+    margin-top: 5rem;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -101,7 +101,6 @@ body {
     padding: 1rem;
     transition: 0.5s;
     border-radius: 100%;
-    
 }
 
 h1 {
